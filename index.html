@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="container">
+        <div class="products">
+          <div class="products__header">
+            <div class="products__title">
+              <span>SHOP</span> > <span>PRODUCTS</span>
+            </div>
+          </div>
+
+          <div class="products__filter">
+            <div class="products__filter-input">
+              <select id="category" title="Category">
+                <option value="SMARTWATCHES">SMARTWATCHES</option>
+                <option value="CELLPHONES">CELLPHONES</option>
+                <option value="COMPUTERS and LAPTOPS">
+                  COMPUTERS &amp; LAPTOPS
+                </option>
+                <option value="ACCESSORIES">ACCESSORIES</option>
+              </select>
+            </div>
+
+            <div class="products__filter-button filter">Filter</div>
+            <div class="products__filter-button showAll">Show All</div>
+          </div>
+
+          <div class="products__list"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
